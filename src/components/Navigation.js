@@ -1,6 +1,6 @@
 import React from "react"
 import MoonIcon from "../images/moon.svg"
-import SunIcon from "../images/sun.svg"
+// import SunIcon from "../images/sun.svg"
 
 const Navigation = () => {
     // const toggleTheme = () => {
