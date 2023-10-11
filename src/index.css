@@ -1,14 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+}
+
+/* :root {
+  --bg-color: #F6F8FF;
+  --white: #FEFEFE;
+  --primaryBlue: #0079FF;
+  --lightBlue: #60ABFF;
+  --dark: #2B3442;
+  --bgCardDark: #1E2A47;
+  --grey: #697C9A;
+  --bgSecondary: #4B6A9B;
+} */
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Space Mono", Arial, Helvetica, sans-serif;
+  background-color: #F6F8FF;
   -ms-overflow-style: none; 
   scrollbar-width: none;  
   overflow-x: hidden; 

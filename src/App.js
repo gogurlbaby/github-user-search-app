@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css"
+import Navigation from "./components/Navigation";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
     <div className="App">
-     <h1>GitHub User Search App</h1>
+      <Navigation />
+      <SearchBar />
     </div>
   );
 }
