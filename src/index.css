@@ -10,17 +10,6 @@
   box-sizing: border-box;
 }
 
-/* :root {
-  --bg-color: #F6F8FF;
-  --white: #FEFEFE;
-  --primaryBlue: #0079FF;
-  --lightBlue: #60ABFF;
-  --dark: #2B3442;
-  --bgCardDark: #1E2A47;
-  --grey: #697C9A;
-  --bgSecondary: #4B6A9B;
-} */
-
 body {
   width: 100%;
   height: 100vh;
