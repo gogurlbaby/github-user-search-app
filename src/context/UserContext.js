@@ -8,7 +8,7 @@ const UserContext = ({children}) => {
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState(null)
     
-    const GitHubToken = "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"
+    const GitHubToken = "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"
 
     const getGitHubUser = async () => {
         try {
